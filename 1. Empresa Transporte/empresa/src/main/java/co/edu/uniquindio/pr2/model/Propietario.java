@@ -1,4 +1,4 @@
-package co.edu.uniquindio.pr2;
+package co.edu.uniquindio.pr2.model;
 
 public class Propietario {
     private String nombre;
