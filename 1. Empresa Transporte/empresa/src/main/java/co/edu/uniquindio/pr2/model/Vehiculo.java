@@ -6,7 +6,10 @@ public class Vehiculo {
     protected String marca;
     protected String color;
 
-    public Vehiculo(String placa, String modelo, String marca, String color) {
+    public Vehiculo(String placa,
+                    String modelo,
+                    String marca,
+                    String color) {
         this.placa = placa;
         this.modelo = modelo;
         this.marca = marca;
@@ -55,4 +58,3 @@ public class Vehiculo {
                 '}';
     }
 }
-

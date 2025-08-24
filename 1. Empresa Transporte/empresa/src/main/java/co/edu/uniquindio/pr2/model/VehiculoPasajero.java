@@ -3,7 +3,11 @@ package co.edu.uniquindio.pr2.model;
 public class VehiculoPasajero extends Vehiculo {
     private int numeroMaximo;
 
-    public VehiculoPasajero(String placa, String modelo, String marca, String color, int numeroMaximo) {
+    public VehiculoPasajero(String placa,
+                            String modelo,
+                            String marca,
+                            String color,
+                            int numeroMaximo) {
         super(placa, modelo, marca, color);
         this.numeroMaximo = numeroMaximo;
     }

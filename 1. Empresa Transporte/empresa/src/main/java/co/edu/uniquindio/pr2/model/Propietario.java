@@ -8,7 +8,11 @@ public class Propietario {
     private String sizeVehiculo;
     private Vehiculo vehiculo;
 
-    public Propietario(String nombre, String id, String correo, String celular, String sizeVehiculo) {
+    public Propietario(String nombre,
+                       String id,
+                       String correo,
+                       String celular,
+                       String sizeVehiculo) {
         this.nombre = nombre;
         this.id = id;
         this.correo = correo;
