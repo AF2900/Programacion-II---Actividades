@@ -36,9 +36,6 @@ public class Main {
         actualizarVehiculoCarga(vehiculoService);
         eliminarVehiculoCarga(vehiculoService);
     }
-
-
-
     private static void agregarPropietario(PropietarioService service) {
         Propietario p1 = new PropietarioBuilder()
                 .nombre("Carlos")
