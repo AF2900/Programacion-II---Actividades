@@ -39,11 +39,6 @@ public class Usuario {
         this.prestamos = prestamos;
     }
 
-    // Método para añadir préstamos de a uno
-    public void addPrestamo(Prestamo prestamo) {
-        this.prestamos.add(prestamo);
-    }
-
     @Override
     public String toString() {
         return "Usuario{" +

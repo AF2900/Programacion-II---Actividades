@@ -89,7 +89,6 @@ public class ModelFactory {
         }
     }
 
-    // --------------------- CRUD LIBRO ---------------------
     public void crearLibro() {
         String titulo = JOptionPane.showInputDialog("Ingrese el título del libro:");
         String autor = JOptionPane.showInputDialog("Ingrese el autor del libro:");
