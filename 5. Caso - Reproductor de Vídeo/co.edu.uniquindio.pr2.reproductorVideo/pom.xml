@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                co.edu.uniquindio.pr2.reproductorvideo/co.edu.uniquindio.pr2.reproductorvideo.HelloApplication
+                                co.edu.uniquindio.pr2.reproductorvideo/co.edu.uniquindio.pr2.reproductorvideo.ReproductorApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

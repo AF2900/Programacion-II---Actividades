@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class ReproductorApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Reproductor.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        FXMLLoader fxmlLoader = new FXMLLoader(ReproductorApplication.class.getResource("Reproductor.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.setTitle("Reproductor de vídeo AF");
         stage.setScene(scene);
         stage.show();
     }
